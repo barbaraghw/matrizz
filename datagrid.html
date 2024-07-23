@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Grid</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <h1>Data Grid</h1>
+
+  
+
+    <div class="form-group">
+        <input type="text" id="NombreInput" placeholder="Nombre">
+        <input type="text" id="EdadInput" placeholder="Edad">
+        <button id="AgregarFilaBoton">Agregar Fila</button>
+    </div>
+
+ s
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody id="dataGrid">
+        </tbody>
+    </table>
+
+    <div class="paginacion">
+        <button id="AnteriorPagButton">Anterior</button>
+        <span id="paginaInfo"></span>
+        <button id="SigPagButton">Siguiente</button>
+    </div>
+
+    <script src="JS.js"></script>
+</body>
+</html>
